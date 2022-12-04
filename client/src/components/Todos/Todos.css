@@ -1,0 +1,51 @@
+.todo {
+    border:2px solid red;
+    width: 100%;
+    margin: 2rem 0;
+    background: rgb(204, 204, 204);
+}
+
+.container {
+    margin: 1rem;
+} 
+
+.container span{
+    text-transform: capitalize;
+    color: rgb(37, 99, 235);
+}
+.todoTitle,.todoDescription {
+    
+}
+
+.todoDescription {
+    margin: 1rem 0;
+}
+
+.buttonHolder {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.todoButton {
+    display: block;
+    width: 100%;
+    text-transform: capitalize;
+    height: 3rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.edit {
+    background-color: rgb(37, 99, 235);
+}
+
+.delete {
+    /* margin-left: 1rem; */
+    background-color: rgb(239, 68, 68);
+}
+
+.addSome {
+    text-align: center;
+    color: rgb(37, 99, 235);;
+}

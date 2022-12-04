@@ -1,0 +1,43 @@
+.formContainer {
+    border: 2px solid red;
+    margin: 2rem 0;
+    background: rgb(204, 204, 204);
+}
+form {
+    margin: 1rem;
+}
+input {
+    display: block;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+}
+
+::placeholder { 
+  /* color: red;
+  opacity: 1; 
+  background: #000;
+  text-align: center; */
+}
+
+.name {
+    height: 2.5rem;
+}
+.description {
+    height: 5rem;
+    margin: 1rem 0;
+    text-align: top;
+}
+
+.formButton {
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    background-color: rgb(37, 99, 235);
+    height: 3rem;
+    color: white;
+    font-size: 1rem;
+}

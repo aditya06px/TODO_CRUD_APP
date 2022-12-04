@@ -1,0 +1,28 @@
+.blue {
+    background:hsl(235, 21%, 11%);
+}
+
+.abc {
+    width: 100%;
+    height: 200px;
+}
+
+.App{
+    width:60%;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    outline: none;
+    border: none;
+}
+
+.head {
+    text-align: center;
+    color: rgb(37, 99, 235);;
+}
